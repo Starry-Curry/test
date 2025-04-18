@@ -28,11 +28,12 @@ This is a test for relation of git and  github
 这两个的顺序可以颠倒，没有固定的顺序。
 
 ``` git config --global user.name “gitname”
-git config --global user.email “git邮箱” ```
+git config --global user.email “git邮箱”
+```
 
 截止到这里的操作，已经完成本地 Git 与远程的 Github 绑定，这意味着我们已经可以通过 Git 向 GitHub 提交代码啦！
 
-2.5 使用Git将代码提交到GitHub
+## 2.5 使用Git将代码提交到GitHub
 该过程需要使用经常的接触的两个 Git 命令，包括：push和 pull
 
 push：该单词直译过来就是 “推” 的意思，如果我们本地的代码有了更新，为了保持本地与远程的代码同步，我们就需要把本地的代码推到远程的仓库，代码示例：
@@ -41,7 +42,7 @@ git push origin master
 pull：该单词直译过来就是 “拉” 的意思，如果我们远程仓库的代码有了更新，同样为了保持本地与远程的代码同步，我们就需要把远程的代码拉到本地，代码示例： 
 
 git pull origin master
-2.5.1 克隆仓库
+### 2.5.1 克隆仓库
 1、将我们的库克隆下来到本地电脑中，方便以后进行上传代码。
 
 2、点进仓库之后点击 Code，点击 ssh 会看到一串网址（http也可以），这个地址就是代码地址，git clone 命令会用的到。
@@ -54,7 +55,7 @@ git pull origin master
 
 如下图所示，指定目录已经存在了我们的库文件 
 
-2.5.2 上传代码
+### 2.5.2 上传代码
 1、打开这个文件夹，然后在其中创建一个任意格式，任意名称的文件（这里新建了一个测试文件）。
 
 2、在这个文件夹里面右键 git bash 进黑框框，git add 我们新增的文件
